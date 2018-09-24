@@ -1,5 +1,8 @@
-This is a taks from Yandex's frontend developer interview.
+#yandex-calc-test
 
-Task:
-Make a function calc(expression), where expression will likes '1 2 3 * +' and result will be 7.
-Expression must be validate before calculation.
+Написать функцию calc(expression) выисляющая значение для выражений вида:
+  1. '1 2 3 * +' //7
+  2. '1 2 + 3 *' //9
+
+Выражение должно проверяться на корректность. 
+В случае ошибки выбросить исключение.
